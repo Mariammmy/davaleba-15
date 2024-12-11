@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  align-items: space-around;
+}
+.box .cardd {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=styles.css.map */
