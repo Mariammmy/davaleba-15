@@ -2,17 +2,32 @@
    display: flex;
    align-items: space-around;
    flex-wrap: wrap;
-   @media (max-width:995px){
-      width 400px;
-   }
-
-    .cardd{
+   .cardd{
     margin: 0 auto;
     display: flex;
     gap: 20px;
-
-    @media (max-width:995px){
-
-    }
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+}
+
+.col{
+   a{
+      display: block;
+      text-decoration: none;
+      color: purple;
+   }
+   a:hover{
+      color: blue;
+   }
+}
+
+.headline{
+   color: #4d7ad9;
+   display: flex;
+   justify-self: center;
+}
+
+.headline:hover{
+   color: #1b1548;
 }
